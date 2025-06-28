@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Advance Todo App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Advance Todo App</h1>
+    <input id="enter_todo" type="text" placeholder="Enter Todo" />
+
+    <button id="add">Add Todo</button>
+    <br />
+    <br />
+    <input id="search_todo" type="text" placeholder="Search Todo" />
+    <br />
+    <div id="checkbox_all" hidden>
+      <input type="checkbox" id="select_all" /> Select All
+      <button id="delete_selected">Delete All</button>
+    </div>
+    <div id="todo_holder"></div>
+    <button id="prev_page">Prev</button>
+    <span id="page_info"> Page: </span>
+    <button id="next_page">Next</button>
+    <span id="total"></span>
+    <script src="script.js"></script>
+  </body>
+</html>
